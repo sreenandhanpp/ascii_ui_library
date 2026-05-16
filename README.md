@@ -46,12 +46,12 @@ Experience the multi-theme engine and dynamic border styling in your browser:
 Install the core React package and its theme dependencies via your preferred package manager:
 
 ```bash
-npm install @ascii-ui/react @ascii-ui/themes @ascii-ui/ascii-engine
+npm install @sreenandhanpp/ascii-ui @sreenandhanpp/ascii-ui-themes @sreenandhanpp/ascii-ui-engine
 ```
 
 If you are using **pnpm** in a workspace:
 ```bash
-pnpm add @ascii-ui/react @ascii-ui/themes @ascii-ui/ascii-engine
+pnpm add @sreenandhanpp/ascii-ui @sreenandhanpp/ascii-ui-themes @sreenandhanpp/ascii-ui-engine
 ```
 
 ---
@@ -62,7 +62,7 @@ ASCII/UI is designed to be incredibly simple to integrate. Just wrap your applic
 
 ```tsx
 import React from 'react';
-import { AsciiUIProvider, Button, Card, Terminal } from '@ascii-ui/react';
+import { AsciiUIProvider, Button, Card, Terminal } from '@sreenandhanpp/ascii-ui';
 
 function App() {
   return (
@@ -127,10 +127,10 @@ ascii-ui-monorepo/
 ├── apps/
 │   └── docs/                 # Interactive Vite showcase & playground
 ├── packages/
-│   ├── ui/                   # @ascii-ui/react (Core React components)
-│   ├── cli/                  # ascii-ui CLI tool for adding components
-│   ├── themes/               # @ascii-ui/themes (Color variables and tokens)
-│   └── ascii-engine/         # @ascii-ui/ascii-engine (Border rendering logic)
+│   ├── ui/                   # @sreenandhanpp/ascii-ui (Core React components)
+│   ├── cli/                  # ascii-ui-cli tool for adding components
+│   ├── themes/               # @sreenandhanpp/ascii-ui-themes (Color variables and tokens)
+│   └── ascii-engine/         # @sreenandhanpp/ascii-ui-engine (Border rendering logic)
 ```
 
 ---
