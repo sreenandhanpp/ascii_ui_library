@@ -1,0 +1,21 @@
+{
+  "name": "docs",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "@ascii-ui/react": "workspace:*",
+    "@ascii-ui/themes": "workspace:*",
+    "@ascii-ui/ascii-engine": "workspace:*"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.2.1",
+    "vite": "^5.2.0",
+    "typescript": "^5.0.0"
+  }
+}

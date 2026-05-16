@@ -1,0 +1,15 @@
+{
+  "name": "ascii-ui-cli",
+  "version": "1.0.0",
+  "bin": {
+    "ascii-ui": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs --minify",
+    "dev": "tsup src/index.ts --format cjs --watch"
+  },
+  "devDependencies": {
+    "tsup": "^8.0.0",
+    "typescript": "^5.0.0"
+  }
+}
