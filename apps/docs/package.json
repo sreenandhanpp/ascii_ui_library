@@ -9,9 +9,9 @@
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "@ascii-ui/react": "workspace:*",
-    "@ascii-ui/themes": "workspace:*",
-    "@ascii-ui/ascii-engine": "workspace:*"
+    "@sreenandhanpp/ascii-ui": "workspace:*",
+    "@sreenandhanpp/ascii-ui-themes": "workspace:*",
+    "@sreenandhanpp/ascii-ui-engine": "workspace:*"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.2.1",

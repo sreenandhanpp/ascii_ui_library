@@ -1,9 +1,15 @@
 {
-  "name": "@ascii-ui/react",
+  "name": "@sreenandhanpp/ascii-ui",
   "version": "1.0.0",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "build": "tsup src/index.ts --format cjs,esm --dts --external react",
     "dev": "tsup src/index.ts --format cjs,esm --dts --external react --watch"
@@ -13,8 +19,8 @@
     "react-dom": "^18.2.0"
   },
   "dependencies": {
-    "@ascii-ui/themes": "workspace:*",
-    "@ascii-ui/ascii-engine": "workspace:*"
+    "@sreenandhanpp/ascii-ui-themes": "workspace:*",
+    "@sreenandhanpp/ascii-ui-engine": "workspace:*"
   },
   "devDependencies": {
     "tsup": "^8.0.0",

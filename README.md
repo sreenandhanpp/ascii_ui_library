@@ -15,7 +15,7 @@
 
 <br />
 
-![ASCII/UI Homepage](homepage.png)
+![ASCII/UI Homepage](assets/homepage.png)
 
 **ASCII/UI** is an open-source, production-ready component library that merges the raw aesthetic of retro terminal OS interfaces with the powerful architecture of modern React design systems (like shadcn/ui and radix).
 
@@ -96,7 +96,7 @@ export default App;
 
 ASCII/UI ships with a powerful theming engine that alters the entire structural appearance of the DOM contextually. 
 
-![ASCII/UI Themes Overview](themes.png)
+![ASCII/UI Themes Overview](assets/themes.png)
 
 ### Available Themes
 - `cyberpunk` (Default Green & Dark)

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, AsciiUIProvider } from '@ascii-ui/react';
+import { Button, AsciiUIProvider } from '@sreenandhanpp/ascii-ui';
 
 export function App() {
   return (

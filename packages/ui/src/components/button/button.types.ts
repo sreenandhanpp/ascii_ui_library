@@ -1,5 +1,5 @@
 import { ButtonHTMLAttributes } from "react";
-import { ThemeName } from "@ascii-ui/themes";
+import { ThemeName } from "@sreenandhanpp/ascii-ui-themes";
 
 export interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
   variant?: "primary" | "secondary" | "ghost" | "danger" | "success";

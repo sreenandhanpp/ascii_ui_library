@@ -1,6 +1,6 @@
 import React, { createContext, useContext, ReactNode } from 'react';
-import { THEMES, ThemeName } from '@ascii-ui/themes';
-import { BORDERS, BorderStyle } from '@ascii-ui/ascii-engine';
+import { THEMES, ThemeName } from '@sreenandhanpp/ascii-ui-themes';
+import { BORDERS, BorderStyle } from '@sreenandhanpp/ascii-ui-engine';
 
 interface ProviderProps {
   children: ReactNode;

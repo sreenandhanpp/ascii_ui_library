@@ -17,13 +17,13 @@ importers:
 
   apps/docs:
     dependencies:
-      '@ascii-ui/ascii-engine':
-        specifier: workspace:*
-        version: link:../../packages/ascii-engine
-      '@ascii-ui/react':
+      '@sreenandhanpp/ascii-ui':
         specifier: workspace:*
         version: link:../../packages/ui
-      '@ascii-ui/themes':
+      '@sreenandhanpp/ascii-ui-engine':
+        specifier: workspace:*
+        version: link:../../packages/ascii-engine
+      '@sreenandhanpp/ascii-ui-themes':
         specifier: workspace:*
         version: link:../../packages/themes
       react:
@@ -72,10 +72,10 @@ importers:
 
   packages/ui:
     dependencies:
-      '@ascii-ui/ascii-engine':
+      '@sreenandhanpp/ascii-ui-engine':
         specifier: workspace:*
         version: link:../ascii-engine
-      '@ascii-ui/themes':
+      '@sreenandhanpp/ascii-ui-themes':
         specifier: workspace:*
         version: link:../themes
       react:
